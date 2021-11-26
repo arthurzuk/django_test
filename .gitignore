@@ -1,8 +1,8 @@
 # created by virtualenv automatically
 
-/Lib
-/Scripts
+Lib/
+Scripts/
 pyvenv.cfg
 cmds.txt
 db.sqlite3
-\__pychache__
+__pychache__/
