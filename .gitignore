@@ -5,3 +5,4 @@
 pyvenv.cfg
 cmds.txt
 db.sqlite3
+\__pychache__

@@ -19,6 +19,8 @@ e levantamento do server(host padrão 127.0.0.1/8000/)
 
 . interface admin(somente cadastro)
 
+	#username: admin 
+	#password: admin
 	127.0.0.1/8000/admin/
 	
 . linha de comando
