@@ -14,9 +14,10 @@ def index(request):
             b = content['born_date']
             if 'password' in content.keys():
                 p = content['password']
-                login = Login(username = u, password = p, born_date = b)
-                login.save()
-                return HttpResponse('Login sucessfully created')
+                if p != '':
+                    login = Login(username = u, password = p, born_date = b)
+                    login.save()
+                    return HttpResponse('Login sucessfully created')
             
             login = Login(username = u, born_date = b)
             login.save()
