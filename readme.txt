@@ -1,17 +1,22 @@
-Aplicação desenvolvida para finalidade de teste,
+AplicaÃ§Ã£o desenvolvida para finalidade de teste,
 utilizando-se Python e DJango.
 
+FunÃ§Ã£o:
+
+Foram criadas duas APIs:
+-Cadastro de usuÃ¡rio(nome de usuÃ¡rio, senha, data de nascimento) com senha opcional, criado aleatÃ³riamente caso nÃ£o fornecido.
+-Download  de todos os cadastros em formato xlsx.
 
 Requerimentos:
 
-Para rodar a aplicação é necessário Python instalado na máquina
+Para rodar a aplicaÃ§Ã£o Ã© necessÃ¡rio Python instalado na mÃ¡quina
 
-Instruções:
+InstruÃ§Ãµes:
 
--Rode o script setup.bat para instalação de dependências
-e levantamento do server(host padrão 127.0.0.1/8000/)
+-Rode o script setup.bat para instalaÃ§Ã£o de dependÃªncias
+e levantamento do server(host padrÃ£o 127.0.0.1/8000/)
 
--Para inserção e/ou download de dados utilize uma das seguintes vias:
+-Para inserÃ§Ã£o e/ou download de dados utilize uma das seguintes vias:
 
 . interface web
 	
@@ -25,7 +30,7 @@ e levantamento do server(host padrão 127.0.0.1/8000/)
 	
 . linha de comando
 	
-	#comando para criação de cadastro
+	#comando para criaÃ§Ã£o de cadastro
 		
 		curl -X POST -d "username=nome&password=senha&born_date=2021-11-27" http://127.0.0.1:8000/create/
 	
